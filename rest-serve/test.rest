@@ -1,0 +1,11 @@
+
+POST http://localhost:5000/events HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample"
+}
+
+######
+
+DELETE http://localhost:5000/events/476c792b-4813-4b38-9e4d-04ca1ac5adeb HTTP/1.1
