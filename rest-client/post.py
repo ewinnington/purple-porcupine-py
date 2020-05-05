@@ -1,3 +1,5 @@
+### pip install requests --user
+
 import requests
 url = 'http://localhost:5000/events'
 data = '{  "name": "sample" }'
